@@ -1,0 +1,122 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 1.5%;
+  padding: 5px;
+}
+
+body {
+  background-color: #fff5fe;
+  text-align: center;
+  margin: 2em;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  color: #add6f5;
+  font-size: 28.5px;
+  padding: 17px;
+  text-shadow: -1px 0 #1a2747, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  align: center;
+  color: #7ac0f5;
+  margin-top: 2em; 
+  padding: 10px;
+  border: 10px double #9f2d81;
+  width: 600px;
+  margin-right: 200px;
+  margin-left: 325px;
+  text-shadow: -1px 0 #1f2b47, 0 1px black, 1px 0 black, 0 -1px black;
+ border-radius: 15px;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+justify-content: center;
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  display: block;
+  padding: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  width: 300px;
+  height: 250px;
+  object-fit: <40>;
+  border: 5px solid #7297ee;
+  border-radius: 15px;
+}
+
+/* STYLE BUTTON */
+button { 
+  
+  background-color: #7ac0f5;
+  margin-top: 0px;
+  width: 270px;
+  height: 50px;
+  color: #fcfcfc;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-top: 12px;
+  border: 2px solid #7297ee;
+  border-radius: 15px;
+  box-shadow: 4px 3px 0px #2d3e67;
+
+}
+
+button:hover{
+   background-color: #3ea5f4;
+  border: #3ea5f4;
+  height: 50px;
+  padding-bottom: 30px;
+  padding-top: 12px;
+  
+}
+
+#result{
+  margin-top: 75px;
+  padding-bottom: 30px;
+  
+}
+
+#result:hover{
+   background-color: #3ea5f4;
+  border: #3ea5f4;
+   margin-top: 75px;
+  height: 50px;
+  padding-bottom: 30px;
+}
+
+#restart{
+  background-color: #7ac0f5;
+  border: #7ac0f5;
+  margin-top: 50px;
+  height: 35px;
+  width: 120px;
+  padding-bottom: 30px;
+}
+
+#restart:hover{
+  background-color: #3ea5f4;
+  border: #3ea5f4;
+  margin-top: 50px;
+  height: 35px;
+  width: 120px;
+  padding-bottom: 30px;
+}
